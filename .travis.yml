@@ -1,0 +1,5 @@
+language: ruby
+rvm:
+    - 2.0.0
+
+script: xvfb-run bundle exec rake test
